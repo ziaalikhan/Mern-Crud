@@ -1,0 +1,98 @@
+.navbar-brand {
+  font-size: 35px !important;
+  color: white !important;
+}
+
+.nav-link {
+  color: white !important;
+  font-size: 20px !important;
+}
+.navbar {
+  background-color: blueviolet !important;
+  padding-left: 7% !important;
+  padding-right: 7% !important;
+}
+
+.Home_Page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.all_Inputs {
+  text-align: center;
+  margin-top: 8%;
+}
+
+.all_Inputs > input {
+  width: 70%;
+  height: 55px;
+  margin-top: 5%;
+  font-size: 20px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  outline: none;
+}
+
+.submit_Btn {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.submit_Btn > button {
+  width: 200px;
+  height: 45px;
+  border: none;
+  background-color: #1f499c;
+  color: white;
+  font-size: 20px;
+}
+
+.list_Data {
+  margin-top: 8%;
+  overflow: auto;
+  height: 680px;
+}
+
+.card {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  padding-top: 10px;
+}
+
+.update_delete {
+  display: flex;
+  padding: 5px;
+}
+
+.update_delete > .update_btn {
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: #1f499c;
+  color: white;
+}
+.update_delete > .delete_btn {
+  width: 100px;
+  height: 30px;
+  margin-left: 5px;
+  border: none;
+  background-color: #5969f7;
+  color: white;
+}
+
+.card_Data {
+  list-style: none;
+}
+.card_Data > li {
+  font-size: 20px;
+}
+
+.update_Inputs {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  outline: none;
+  margin-top: 5px;
+}
